@@ -34,8 +34,8 @@ Fimod.define({
       69: "ironSeller",                             // e
       82: "",                                       // r
       84: "coalBuyer",                              // t
-      89: "ironFoundry",                            // y
-      85: "ironSeller",                             // u
+      89: "steelFoundry",                           // y
+      85: "steelSeller",                            // u
       73: "",                                       // i
       79: "",                                       // o
       80: "",                                       // p
