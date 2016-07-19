@@ -1,7 +1,7 @@
 import Fimod from '../Fimod';
 
 import { insertStyle } from '../lib/utility';
-import { clamp } from '../lib/common'; 
+import { clamp } from '../lib/common';
 
 const css = `
 #gameArea .mapContainer > div {
@@ -148,7 +148,7 @@ Fimod.define({
         leftMouseDown: event.buttons & 1,
         rightMouseDown: event.buttons & 2,
         shiftKeyDown: event.shiftKey,
-        altKeyDown: event.altKey, 
+        altKeyDown: event.altKey,
       };
       if (!lastEvent || lastEvent.x != newEvent.x || lastEvent.y != newEvent.y) {
         em.invokeEvent(FACTORY_MOUSE_MOVE, newEvent);
@@ -163,7 +163,7 @@ Fimod.define({
         leftMouseDown: event.buttons & 1,
         rightMouseDown: event.buttons & 2,
         shiftKeyDown: event.shiftKey,
-        altKeyDown: event.altKey, 
+        altKeyDown: event.altKey,
       });
     }, false);
 
@@ -244,10 +244,6 @@ Fimod.define({
       RIGHT: { top:  0, left: -1 },
     };
     const directions = {
-      87: "UP",
-      65: "LEFT",
-      83: "DOWN",
-      68: "RIGHT",
       38: "UP",
       37: "LEFT",
       40: "DOWN",
